@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-
+// click 事件的各种练习
 class Demo1 extends Component {
     constructor() {
         super();

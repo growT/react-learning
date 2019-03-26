@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+// ForwardRef 高阶组件传递 ref的一种方式
 function ForwardRefs(WaperComponnet) {
     class LogProps extends Component {
         componentWillReceiveProps(preProps, props) {

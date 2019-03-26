@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import testImg from '../images/喵喵.jpg'
-
+// render props共享状态和行为的一种模式
 function RenderProps() {
     return <Mouse render={mouse => <Cat mouse={mouse}/>}/>
 }

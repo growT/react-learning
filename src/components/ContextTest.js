@@ -4,7 +4,7 @@ var ThemContext = React.createContext({
     theme: 'light',
     toggleTheme: () => {}
 });
-
+// createContext 创建上下文练习
 class LastDom extends Component {
     render() {
         console.log(this.props.toggleTheme)

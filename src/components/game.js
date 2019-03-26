@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './game.css'
+// 入门 react 练习
 // class Square extends Component{
 //     render() {
 //         return (

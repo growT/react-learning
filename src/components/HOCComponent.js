@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-
+// 高阶组件 练习
 function HocComponent(WaperComponnet) {
     return class extends Component {
         componentWillReceiveProps(preProps,props) {

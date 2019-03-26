@@ -11,8 +11,8 @@ import './App.css';
 // import HocComponent from './HOCComponent'
 // import ForwardRefs from './ForwardRefs'
 // import RenderProps from './RenderProps'
-// import CarDemo from './carTest'
-import CarDemo2 from './carTest2'
+// import CarDemo from './reduxTest'
+import CarDemo2 from './reactReduxTest'
 
 class App extends Component {
   constructor() {
