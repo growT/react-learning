@@ -13,6 +13,7 @@ import './App.css';
 // import RenderProps from './RenderProps'
 // import CarDemo from './reduxTest'
 import CarDemo2 from './reactReduxTest'
+import Parent from './Portal'
 
 class App extends Component {
   constructor() {
@@ -25,8 +26,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+       <Parent/>
         {
-        <CarDemo2 />
+  
+        // <CarDemo2 />
         /* <Game />
         <Demo1 />
         <FormDemo1 />
