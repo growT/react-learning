@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Game from './game.js'
-// import Demo1 from './demo1.js'
-// import FormDemo1 from './FormDemo1'
-// import FormDemo2 from './FormDemo2'
-// import CombinationTest from './CombinationTest'
-// import SearchTable from './SearchTable'
-// import ContextTest from './ContextTest'
-// import FragmentTest from './FragmentTest'
-// import HocComponent from './HOCComponent'
-// import ForwardRefs from './ForwardRefs'
-// import RenderProps from './RenderProps'
-// import CarDemo from './reduxTest'
-import CarDemo2 from './reactReduxTest'
-import Parent from './Portal'
+// import Game from './components/game.js'
+// import Demo1 from './components/demo1.js'
+// import FormDemo1 from './components/FormDemo1'
+// import FormDemo2 from './components/FormDemo2'
+// import CombinationTest from './components/CombinationTest'
+// import SearchTable from './components/SearchTable'
+// import ContextTest from './components/ContextTest'
+// import FragmentTest from './components/FragmentTest'
+// import HocComponent from './components/HOCComponent'
+// import ForwardRefs from './components/ForwardRefs'
+// import RenderProps from './components/RenderProps'
+// import CarDemo from './components/reduxTest'
+// import CarDemo2 from './components/reactReduxTest'
+// import Parent from './components/Portal'
+import ChangeSkin from './pages/ChangeSkin'
 
 class App extends Component {
   constructor() {
@@ -26,11 +27,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <Parent/>
-        {
-  
-        // <CarDemo2 />
-        /* <Game />
+        <ChangeSkin/>
+       {/* <Parent/>
+       <CarDemo2 />
+        <Game />
         <Demo1 />
         <FormDemo1 />
         <FormDemo2 />
