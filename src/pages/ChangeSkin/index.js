@@ -1,12 +1,19 @@
 
 import React, {Component} from 'react'
-import './index.less'
 import loadScript from '../../utils/utils'
 
 const colors = ['red','blue','green']
 const lessUrl =
             'https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js';
+/**
+ * less文件必须使用link方式引用，
+ * 比如：<link rel="stylesheet/less" type="text/css" href="index.less" />，这里实在index.html中引用
+ * 并且less需要考虑每次改变颜色编译的速度
+ */
 class ChangeSkin extends Component {
+    componentDidMount() {
+        this.handleColorChange('red');
+    }
     handleColorChange  = (color) =>{
         // 如果Less已经加载了，就去改变颜色，如果Less没有加载就，首先加载less在去改变颜色
         if(this.isLessLoad) {
